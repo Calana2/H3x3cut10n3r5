@@ -9,7 +9,7 @@
     IBT:        Enabled
 ```
 
-`*glibc version: 2.23*`
+**`glibc version: 2.23`**
 
 ### Leaks
 
