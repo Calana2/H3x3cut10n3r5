@@ -25,6 +25,5 @@ While you can use FSOP to get arbitrary execution, I wasn't familiar with the me
 
 With the stack leaks I was able to overwrite a saved RIP in the stack and put there my ROP chain. 
 
-
-
+`sun{pr!ntf_1n7ernAls_4rE_pr3tty_c0ol!}`
 
