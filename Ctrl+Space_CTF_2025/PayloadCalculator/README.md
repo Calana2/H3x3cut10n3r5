@@ -12,7 +12,7 @@ The script is NOT mine, I managed to gain remote code execution in local but fai
     Stripped:   No
 ```
 
-**`glibc version: 2.23`**
+`*glibc version: 2.23*`
 
 
 ### Leaks 
