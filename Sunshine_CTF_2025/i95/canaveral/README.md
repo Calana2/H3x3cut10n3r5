@@ -12,6 +12,6 @@
 
 The program read 0x64 bytes in a smaller buffer so we had a buffer overflow.
 
-The program had a `win(arg1, arg2)` function that checks that `arg1=0x31337` and `arg2='/bin/sh'`. We could not set `rdi` and `rsi` but these are copied befor the checks into `rbp-0x4` and `rbp-0x10` respectively so we could jump a little furter and prepare a stack frame thatmet the conditions.
+The program had a `win(arg1, arg2)` function that checks that `arg1=0x31337` and `arg2='/bin/sh'`. We could not set `rdi` and `rsi` but these are copied befor the checks into `rbp-0x4` and `rbp-0x10` respectively so we could jump a little furter and prepare a stack frame that met the conditions.
 
 `sun{D!d_y0u_s3e_thE_IM4P_spAce_laUncH??}`
