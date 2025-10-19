@@ -1,4 +1,4 @@
-# FAAS (Filesystem As A Service)
+# FAAS (File Access As A Service)
 
 This challenge provided a file reader/writer program, we can read the flag in `/flag.txt`.
 
