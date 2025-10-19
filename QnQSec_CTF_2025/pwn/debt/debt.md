@@ -1,5 +1,16 @@
 # debt
 
+```
+    Arch:       amd64-64-little
+    RELRO:      Full RELRO
+    Stack:      Canary found
+    NX:         NX enabled
+    PIE:        PIE enabled
+    SHSTK:      Enabled
+    IBT:        Enabled
+    Stripped:   No
+```
+
 There is a buffer overflow in the admin menu. We can leak the canary and the libc address through a formatted string vulnerability when our name is printed.
 
 ### Exploit
