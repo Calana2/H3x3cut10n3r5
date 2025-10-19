@@ -1,5 +1,16 @@
 # notez
 
+```
+    Arch:       amd64-64-little
+    RELRO:      Partial RELRO
+    Stack:      No canary found
+    NX:         NX enabled
+    PIE:        No PIE (0x400000)
+    SHSTK:      Enabled
+    IBT:        Enabled
+    Stripped:   No
+```
+
 This challenge was a classic `SROP` one. With our buffer on the stack we overwrote the variable that holds the size used by the `read` function. 
 With the stack leak and the buffer overflow we can rebuild rbp and call `read` with an arbitrary size.
 Since we have a `syscall` and a `pop rax;ret` gadget:
